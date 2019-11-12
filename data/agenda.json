@@ -1,0 +1,104 @@
+{
+    "sessions": [
+        {
+            "title": "Machine Learning for Dummies",
+            "speaker": "David Kelly",
+            "position": "Senior Software Engineer",
+            "team": "Nessie",
+            "avatar": "",
+            "timeslot": "9AM",
+            "duration": 50,
+            "isInteractive": true
+        },
+        {
+            "title": "Harnessing the ELK stack",
+            "speaker": "Calum McElhone",
+            "position": "Principal Software Engineer",
+            "team": "Pathfinders",
+            "avatar": "",
+            "timeslot": "10AM",
+            "duration": 50,
+            "isInteractive": false
+        },
+        {
+            "title": "CDK vs Cloudformation",
+            "speaker": "Peter Reid",
+            "position": "Software Engineer",
+            "team": "Pathfinders",
+            "avatar": "",
+            "timeslot": "11AM",
+            "duration": 30,
+            "isInteractive": false
+        },
+        {
+            "title": "Building a Product in 90 minutes",
+            "speaker": "Mark O'Connell",
+            "position": "Big Bossman",
+            "team": "Leadership",
+            "avatar": "",
+            "timeslot": "11:40AM",
+            "duration": 30,
+            "isInteractive": false
+        },
+        {
+            "title": "Authentication in enterprise applications: An arduous journey",
+            "speaker": "Andrew Hiles",
+            "position": "Senior Software Engineer",
+            "team": "Pathfinders",
+            "avatar": "",
+            "timeslot": "1PM",
+            "duration": 50,
+            "isInteractive": false
+        },
+        {
+            "title": "Deepracer and all things ML",
+            "speaker": "Glen Horan",
+            "position": "Software Engineer",
+            "team": "Griffins",
+            "avatar": "",
+            "timeslot": "2PM",
+            "duration": 50,
+            "isInteractive": false
+        },
+        {
+            "title": "TC39 - What it is & what's coming next to JS",
+            "speaker": "Matthew Heath",
+            "position": "Software Engineer",
+            "team": "Phoenix",
+            "avatar": "",
+            "timeslot": "3PM",
+            "duration": 30,
+            "isInteractive": false
+        },
+        {
+            "title": "Focus on the product!",
+            "speaker": "Virginia Toombs",
+            "position": "Delivery Lead",
+            "team": "Leadership",
+            "avatar": "",
+            "timeslot": "3:40PM",
+            "duration": 15,
+            "isInteractive": false
+        },
+        {
+            "title": "The importance of STEM",
+            "speaker": "Danielle Robinson",
+            "position": "Software Engineer",
+            "team": "Nessie",
+            "avatar": "",
+            "timeslot": "4PM",
+            "duration": 30,
+            "isInteractive": false
+        },
+        {
+            "title": "Serverless at Scale",
+            "speaker": "Adam Brady",
+            "position": "Principal Software Engineer",
+            "team": "Phoenix",
+            "avatar": "",
+            "timeslot": "5PM",
+            "duration": 45,
+            "isInteractive": true
+        }
+    ]
+}

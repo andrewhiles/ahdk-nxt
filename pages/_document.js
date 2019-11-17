@@ -10,6 +10,7 @@ export default class MyDocument extends Document {
           <link rel="stylesheet" href="/style.css" />
           {/* TODO: look at a better way to load webfonts...DK suggestions? */}
           <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet"></link>
         </Head>
         <body>
           <Main />

@@ -1,4 +1,3 @@
-// pages/api/session/[slug].js
 export default (req, res) => {
     const {
       query: { slug },

@@ -14,10 +14,10 @@ class Sessions extends React.Component {
   render() {
     const items = this.state.map((session, i) => {
       return (
-        <div>
+        <div key={i}>
           <Link as={`/session/${session.slug}`} href={"/session/[slug]/"}>
             <a>
-              <div className="session-card" key={i}>
+              <div className="session-card">
                 <div className="session-timeslot">
                   <p>{session.timeslot}</p>
                 </div>

@@ -5,12 +5,14 @@ const Home = () => (
     <div className="details">
       <h1>QConf 2019</h1>
       <h2>
-        A single day conference curated by the Quantum Unit, with developers
+        A single day conference featuring technical specialists
         sharing their experiences working with a wide range of different
-        cutting-edge technologies.
+        cutting-edge technologies and practices. Curated by members of the Quantum unit in Liberty IT, Belfast.
       </h2>
+      <h3><strike>Tickets: £120.00 + VAT</strike></h3>
+      <h3>SOLD OUT!</h3>
       <p>
-        8th - 10th December 2019
+        Thurs 21st November 2019
         <br />
         Liberty IT, Belfast
       </p>

@@ -1,0 +1,109 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #222222;
+  color: whitesmoke;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+body,
+html,
+#__next,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  border-top: 2px solid #ff0ff8;
+  color: whitesmoke;
+  margin: 20px;
+  padding: 10px 10px 250px 10px;
+}
+
+.session-card {
+  border-left: 1px dashed #ff0ff8;
+  border-bottom: 1px dashed #ff0ff8;
+  color: whitesmoke;
+  margin: 20px;
+  line-height: 0.6;
+  transition: opacity 0.6s;
+  -webkit-transition: opacity 0.6s;
+  opacity: .6;
+}
+
+.session-card a {
+  text-decoration: none;
+}
+
+.session-card:hover {
+  opacity: 1;
+}
+
+.session-snippet {
+  padding: 40px 10px 10px 10px;
+}
+
+.session-snippet p {
+  line-height: 1.2;
+}
+
+.session-speaker {
+  height: 80px;
+}
+
+.session-speaker img {
+  height: 130px;
+  max-width: 100%;
+  border: 2px solid #f008b7;
+}
+
+.session-snippet h2 {
+  font-family: "Permanent Marker", cursive;
+  font-variant: small-caps;
+  font-size: 25px;
+  background-image: -webkit-linear-gradient(#ff0ff8 0%, #f9f9f7 100%);
+  -webkit-background-clip: text;
+  padding-bottom: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+
+.session-timeslot {
+  position: absolute;
+  background-color: #f008b7;
+  color: gold;
+  float: left;
+  padding: 5px;
+}
+
+.session-timeslot p {
+  font-family: "Permanent Marker", cursive;
+  font-variant: small-caps;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  color: #222222;
+  background-color: whitesmoke;
+  border-top: 5px solid #ff0ff8;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  line-height: 1.25;
+}

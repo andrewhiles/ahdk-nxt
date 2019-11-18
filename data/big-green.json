@@ -1,0 +1,12 @@
+{
+    "title": "Serverless at Scale",
+    "slug": "big-green",
+    "speaker": "Adam Brady",
+    "position": "Principal Software Engineer",
+    "team": "Phoenix",
+    "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/ab.png",
+    "timeslot": "5PM",
+    "duration": 45,
+    "isInteractive": true,
+    "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
+}

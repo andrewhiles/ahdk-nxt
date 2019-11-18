@@ -1,0 +1,12 @@
+{
+    "title": "Authentication in enterprise applications: An arduous journey",
+    "slug": "authentication-in-enterprise-apps",
+    "speaker": "Andrew Hiles",
+    "position": "Senior Software Engineer",
+    "team": "Pathfinders",
+    "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/ah.jpg",
+    "timeslot": "1PM",
+    "duration": 50,
+    "isInteractive": false,
+    "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
+}

@@ -5,7 +5,7 @@
             "speaker": "David Kelly",
             "position": "Senior Software Engineer",
             "team": "Nessie",
-            "avatar": "https://raw.githubusercontent.com/andrewhiles/posts/gh-pages/images/about.jpeg",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/dk.jpg",
             "timeslot": "9AM",
             "duration": 50,
             "isInteractive": true,
@@ -16,90 +16,99 @@
             "speaker": "Calum McElhone",
             "position": "Principal Software Engineer",
             "team": "Pathfinders",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/cm.png",
             "timeslot": "10AM",
             "duration": 50,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
             "title": "CDK vs Cloudformation",
             "speaker": "Peter Reid",
             "position": "Software Engineer",
             "team": "Pathfinders",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/pr.png",
             "timeslot": "11AM",
             "duration": 30,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
-            "title": "Building a Product in 90 minutes",
+            "title": "Need a Product? Gone in 90 minutes!",
             "speaker": "Mark O'Connell",
             "position": "Big Bossman",
             "team": "Leadership",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/moc.jpg",
             "timeslot": "11:40AM",
             "duration": 30,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
             "title": "Authentication in enterprise applications: An arduous journey",
             "speaker": "Andrew Hiles",
             "position": "Senior Software Engineer",
             "team": "Pathfinders",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/ah.jpg",
             "timeslot": "1PM",
             "duration": 50,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
             "title": "Deepracer and all things ML",
             "speaker": "Glen Horan",
             "position": "Software Engineer",
             "team": "Griffins",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/gh.png",
             "timeslot": "2PM",
             "duration": 50,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
             "title": "TC39 - What it is & what's coming next to JS",
             "speaker": "Matthew Heath",
             "position": "Software Engineer",
             "team": "Phoenix",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/mh.png",
             "timeslot": "3PM",
             "duration": 30,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
             "title": "Focus on the product!",
             "speaker": "Virginia Toombs",
             "position": "Delivery Lead",
             "team": "Leadership",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/vt.jpg",
             "timeslot": "3:40PM",
             "duration": 15,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
             "title": "The importance of STEM",
             "speaker": "Danielle Robinson",
             "position": "Software Engineer",
             "team": "Nessie",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/dr.png",
             "timeslot": "4PM",
             "duration": 30,
-            "isInteractive": false
+            "isInteractive": false,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         },
         {
             "title": "Serverless at Scale",
             "speaker": "Adam Brady",
             "position": "Principal Software Engineer",
             "team": "Phoenix",
-            "avatar": "",
+            "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/ab.png",
             "timeslot": "5PM",
             "duration": 45,
-            "isInteractive": true
+            "isInteractive": true,
+            "blurb": "Ever since I was young, I had a passion for computers. After graduating with a degree in Computer Science, I joined Liberty IT. Since then, I've been working with lots of innovative technologies. In recent years, my attention has focussed on machine learning and how it can benefit our customers on a daily basis. In this talk, I'll be explaining some of the different ways you can implement machine learning algorithms into apps and transform how the end user can interact with them."
         }
     ]
 }

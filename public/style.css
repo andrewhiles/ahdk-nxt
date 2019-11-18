@@ -28,12 +28,7 @@ main {
   border-top: 2px solid #ff0ff8;
   color: whitesmoke;
   margin: 20px;
-  padding: 10px;
-}
-
-footer {
-  color: #222222;
-  background: whitesmoke;
+  padding: 10px 10px 250px 10px;
 }
 
 .session-card {
@@ -45,6 +40,10 @@ footer {
   transition: opacity 0.6s;
   -webkit-transition: opacity 0.6s;
   opacity: .6;
+}
+
+.session-card a {
+  text-decoration: none;
 }
 
 .session-card:hover {
@@ -61,10 +60,10 @@ footer {
 
 .session-speaker {
   height: 80px;
-  width: 160px;
 }
 
 .session-speaker img {
+  height: 130px;
   max-width: 100%;
   border: 2px solid #f008b7;
 }
@@ -92,4 +91,19 @@ footer {
 .session-timeslot p {
   font-family: "Permanent Marker", cursive;
   font-variant: small-caps;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  color: #222222;
+  background-color: whitesmoke;
+  border-top: 5px solid #ff0ff8;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  line-height: 1.25;
 }

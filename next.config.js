@@ -8,8 +8,7 @@ module.exports = {
 
     config.plugins.push(
       new webpack.EnvironmentPlugin({
-        API: 'http://localhost:3000/api',
-        SECRET : 'camitlon'
+        API: 'http://localhost:3000/api'
       })
     );
 

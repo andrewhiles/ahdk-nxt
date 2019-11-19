@@ -1,10 +1,16 @@
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
 
-class Sessions extends React.Component {
-  static async getInitialProps() {
-    const res = await fetch(`${process.env.API}/session`);
-    // console.log(await res.text())
+class Session extends React.Component {
+  static async getInitialProps({req}) {
+      console.log("polo")
+      let api = ""
+      if(process.browser){
+        api = window.location.hostname === "localhost" ? "http://localhost:3000/api" : "https://ahdk-nxt.davidkelly93.now.sh/api"
+      }else{
+          api = req.headers.host.indexOf("localhost") !== -1 ? "http://localhost:3000/api" : "https://ahdk-nxt.davidkelly93.now.sh/api"
+      }
+    const res = await fetch(`${api}/session`);
     const sessions = await res.json();
     return { sessions };
   }
@@ -48,4 +54,4 @@ class Sessions extends React.Component {
   }
 }
 
-export default Sessions;
+export default Session;

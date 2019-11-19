@@ -18,8 +18,14 @@ const Page = ({ session: session }) => {
   );
 };
 
-Page.getInitialProps = async ({ query }) => {
-  const res = await fetch(`http://localhost:3000/api/session/${query.slug}`);
+Page.getInitialProps = async ({ query, req }) => {
+  let api = ""
+  if(process.browser){
+    api = window.location.hostname === "localhost" ? "http://localhost:3000/api" : "https://ahdk-nxt.davidkelly93.now.sh/api"
+  }else{
+      api = req.headers.host.indexOf("localhost") !== -1 ? "http://localhost:3000/api" : "https://ahdk-nxt.davidkelly93.now.sh/api"
+  }
+  const res = await fetch(`${api}/session/${query.slug}`);
   const session = await res.json();
   return {
     session,

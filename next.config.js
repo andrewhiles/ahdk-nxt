@@ -6,11 +6,11 @@ module.exports = {
   webpack: config => {
     config.resolve.alias['~'] = path.resolve(__dirname);
 
-    config.plugins.push(
-      new webpack.EnvironmentPlugin({
-        API: 'http://localhost:3000/api'
-      })
-    );
+    // config.plugins.push(
+    //   new webpack.EnvironmentPlugin({
+    //     API: 'http://localhost:3000/api'
+    //   })
+    // );
 
     return config;
   },

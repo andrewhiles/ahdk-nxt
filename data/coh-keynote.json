@@ -1,0 +1,12 @@
+{
+    "title": "Opening Keynote",
+    "slug": "coh-keynote",
+    "speaker": "Conor O'Higgins",
+    "position": "Principal Software Engineer",
+    "team": "IceDragons",
+    "avatar": "https://raw.githubusercontent.com/andrewhiles/static/master/coh.png",
+    "timeslot": "8AM",
+    "duration": 20,
+    "isInteractive": false,
+    "blurb": "I like lego and the simpsons...but I like NextJS even more :)"
+}

@@ -3,9 +3,8 @@ import fetch from "isomorphic-unfetch";
 
 class Session extends React.Component {
   static async getInitialProps({req}) {
-      console.log("polo")
       let api = ""
-      if(process.browser){
+      if(typeof window !== 'undefined'){
         api = window.location.hostname === "localhost" ? "http://localhost:3000/api" : "https://ahdk-nxt.now.sh/api"
       }else{
           api = req.headers.host.indexOf("localhost") !== -1 ? "http://localhost:3000/api" : "https://ahdk-nxt.now.sh/api"

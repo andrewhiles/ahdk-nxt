@@ -60,62 +60,30 @@ const Header = () => (
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 80px;
       }
       @media only screen (max-width: 767px) {
         .header-qconf {
-          font-family: "Permanent Marker", cursive;
-          font-variant: small-caps;
           font-size: 70px;
-          -webkit-transform: skew(-15deg, -15deg);
-          background-image: -webkit-linear-gradient(#f008b7 0%, #f9f9f7 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
-          padding-top: 20px;
           padding-bottom: 20px;
         }
       }
       @media only screen and (min-width: 768px) and (max-width: 959px) {
         .header-qconf {
-          font-family: "Permanent Marker", cursive;
-          font-variant: small-caps;
           font-size: 120px;
-          -webkit-transform: skew(-15deg, -15deg);
-          background-image: -webkit-linear-gradient(#f008b7 0%, #f9f9f7 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
-          padding-top: 20px;
           padding-bottom: 80px;
         }
       }
       @media only screen and (min-width: 960px) and (max-width: 1200px) {
         .header-qconf {
-          font-family: "Permanent Marker", cursive;
-          font-variant: small-caps;
           font-size: 150px;
-          -webkit-transform: skew(-15deg, -15deg);
-          background-image: -webkit-linear-gradient(#f008b7 0%, #f9f9f7 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
-          padding-top: 20px;
           padding-bottom: 80px;
         }
       }
       @media only screen and (min-width: 1201px) and (max-width: 1800px) {
         .header-qconf {
-          font-family: "Permanent Marker", cursive;
-          font-variant: small-caps;
           font-size: 200px;
-          -webkit-transform: skew(-15deg, -15deg);
-          background-image: -webkit-linear-gradient(#f008b7 0%, #f9f9f7 100%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
-          padding-top: 20px;
           padding-bottom: 130px;
         }
       }

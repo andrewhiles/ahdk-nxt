@@ -6,9 +6,9 @@ class Session extends React.Component {
       console.log("polo")
       let api = ""
       if(process.browser){
-        api = window.location.hostname === "localhost" ? "http://localhost:3000/api" : "https://ahdk-nxt.davidkelly93.now.sh/api"
+        api = window.location.hostname === "localhost" ? "http://localhost:3000/api" : "https://ahdk-nxt.now.sh/api"
       }else{
-          api = req.headers.host.indexOf("localhost") !== -1 ? "http://localhost:3000/api" : "https://ahdk-nxt.davidkelly93.now.sh/api"
+          api = req.headers.host.indexOf("localhost") !== -1 ? "http://localhost:3000/api" : "https://ahdk-nxt.now.sh/api"
       }
     const res = await fetch(`${api}/session`);
     const sessions = await res.json();
